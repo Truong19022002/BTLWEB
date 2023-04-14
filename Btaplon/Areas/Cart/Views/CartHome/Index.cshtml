@@ -1,0 +1,77 @@
+﻿@model List<Btaplon.Models.Cart.Cartitem>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Cart/Views/HomeCart/_LayoutCart.cshtml";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th class="goods-page-image">Image</th>
+            <th class="goods-page-description">Description</th>
+            <th class="goods-page-ref-no">Ref No</th>
+            <th class="goods-page-quantity">Quantity</th>
+            <th class="goods-page-price">Unit price</th>
+            <th class="goods-page-total" colspan="2">Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td class="goods-page-image">
+                    <a href="javascript:;">
+                        <img src="@Url.Content("../ProductsImages/img/" + item.sanPham.AnhDaiDien)" alt="">
+                    </a>
+                </td>
+                <td class="goods-page-description">
+                    <h3>
+                        <a href="javascript:;">@item.sanPham.TenSp</a>
+                    </h3>
+                    <p>
+                        <strong>@item.sanPham.MaSp</strong>
+                    </p>
+                    <em></em>
+                </td>
+                <td class="goods-page-ref-no">
+                    javc2133
+                </td>
+                <td class="goods-page-quantity">
+                    <div class="product-quantity">
+                        <label for="quantity">Số lượng:</label>
+                        <input type="number" id="quantity" name="quantity" min="0" max="999" value="@item.Quantity" data-id="@item.sanPham.MaSp" onchange="updateTotal(this)">
+                    </div>
+
+                </td>
+                <td class="goods-page-price">
+                    <strong>
+                        <span id="Gia-Tien">@item.sanPham.GiaBan</span>
+                    </strong>
+                </td>
+                <td class="goods-page-total">
+                    <strong>
+                        <span id="Tong-tien"></span>
+                    </strong>
+                </td>
+                <td class="del-goods-col">
+                    <a class="del-goods" href="javascript:;" onclick="deleteItem('@item.sanPham.MaSp')"></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div class="shopping-total">
+    <ul>
+       
+        <li class="shopping-total-price">
+            <em></em>
+            <strong class="price"><span id="total-price"></span></strong>
+        </li>
+    </ul>
+</div>
+<button class="btn btn-primary" onclick="calculateTotal()" type="submit">Tính tổng tiền <i class="fa fa-check"></i></button>
+<form method="post" action="@Url.Action("Payment", "Cart")">
+<button class="btn btn-checkout" onclick="calculateTotal()" type="submit">checkout <i class="fa fa-check"></i></button>
+</form>
+

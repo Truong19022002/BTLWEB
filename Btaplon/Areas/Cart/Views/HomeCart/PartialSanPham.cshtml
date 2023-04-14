@@ -1,0 +1,26 @@
+﻿@model List<Btaplon.Models.TSanPham>
+@section ProductList {
+ 
+    @foreach (var item in Model)
+    {
+        <div>
+            <div class="product-item">
+                <div class="pi-img-wrapper">
+                    <img src="@Url.Content("../ProductsImages/img/"+item.AnhDaiDien)" style="height:250px;" class="img-responsive" alt="Berry Lace Dress">
+                    <div>
+                        <a href="@Url.Content("../ProductsImages/img/"+item.AnhDaiDien)" class="btn btn-default fancybox-button">Zoom</a>
+                        <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
+                    </div>
+                </div>
+                <h3><a href="shop-item.html">@item.TenSp</a></h3>
+                <div class="pi-price">@item.GiaBan</div>
+                <form method="post" action="@Url.Action("AddiItem", "Cart")">
+                    <input type="hidden" name="id" value="@item.MaSp" />
+                    <input type="hidden" name="quantity" value="1" />
+                    <button type="submit" class="btn btn-default add2cart">Add to cart</button>
+                </form>
+                <div class="sticker sticker-sale"></div>
+            </div>
+        </div>
+    }
+}

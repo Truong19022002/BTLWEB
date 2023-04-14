@@ -1,0 +1,17 @@
+﻿@model IEnumerable<TLoaiSp>
+
+    
+@foreach (var loaiSp in Model)
+{
+    <li><a asp-controller="Home" asp-action="SanPhamTheoLoai" asp-route-maloai="@loaiSp.MaLoai">@loaiSp.Loai</a></li>
+
+    @* var getUrl = "https://localhost:7138/api/productapi/" + loaiSp.MaLoai;
+    <li><a style="cursor::pointer" onclick="showProductsByCategory('@getUrl')">@loaiSp.Loai</a></li>*@
+    @*<li><a asp-controller="Home" asp-action="SanPhamTheoLoai" asp-route-maloai="@loaiSp.MaLoai">@loaiSp.Loai</a></li>*@
+}
+
+
+
+          
+
+

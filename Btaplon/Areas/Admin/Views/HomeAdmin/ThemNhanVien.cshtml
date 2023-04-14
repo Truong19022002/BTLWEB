@@ -1,0 +1,78 @@
+﻿@model Btaplon.Models.TNhanVien
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "ThemNhanVien";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>ThemNhanVien</h2>
+
+<h4>TNhanVien</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-action="ThemNhanVien">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="MaNv" class="control-label"></label>
+                <input asp-for="MaNv" class="form-control" />
+                <span asp-validation-for="MaNv" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TenNv" class="control-label"></label>
+                <input asp-for="TenNv" class="form-control" />
+                <span asp-validation-for="TenNv" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaCv" class="control-label"></label>
+                <select asp-for="MaCv" class ="form-control" asp-items="ViewBag.MaCv"></select>
+            </div>
+         
+            <div class="form-group">
+                <label asp-for="NgaySinh" class="control-label"></label>
+                <input asp-for="NgaySinh" class="form-control" />
+                <span asp-validation-for="NgaySinh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GioiTinh" class="control-label"></label>
+                <input asp-for="GioiTinh" class="form-control" />
+                <span asp-validation-for="GioiTinh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Sdt" class="control-label"></label>
+                <input asp-for="Sdt" class="form-control" />
+                <span asp-validation-for="Sdt" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Luong" class="control-label"></label>
+                <input asp-for="Luong" class="form-control" />
+                <span asp-validation-for="Luong" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FrontImage" class="control-label"></label>
+                <div class="custom-file">
+                    <input asp-for="FrontImage" class="custom-file-input " id="FLFrontImage"
+                           onchange="document.getElementById('FrontImagePrv').src=window.URL.createObjectURL(this.files[0])" />
+                    <label class="custom-file-label" for="FLFrontImage">Choose file</label>
+                </div>
+                <span asp-validation-for="FrontImage" class="text-danger"></span>
+                <img id="FrontImagePrv" src="" alt="Logo Image" width="150" height="150"
+                     style="border:1px;margin-top:20px;margin-left:120px;" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+<script type="text/javascript">
+    $(".custom-file-input").on("change", function () {
+        var fileName = $(this).val().split("\\").pop();
+        $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+    });
+</script>

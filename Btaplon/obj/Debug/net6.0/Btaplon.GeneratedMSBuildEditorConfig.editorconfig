@@ -1,0 +1,181 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Btaplon
+build_property.RootNamespace = Btaplon
+build_property.ProjectDir = D:\Ki2Nam3\LapTrinhWeb\Bài tập lớn\Btaplon\Btaplon\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Ki2Nam3\LapTrinhWeb\Bài tập lớn\Btaplon\Btaplon
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Areas/Admin/Views/HomeAdmin/DanhSachDonHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXERhbmhTYWNoRG9uSGFuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Areas/Admin/Views/HomeAdmin/DanhSachKH.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXERhbmhTYWNoS0guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Areas/Admin/Views/HomeAdmin/DanhSachNV.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXERhbmhTYWNoTlYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Areas/Admin/Views/HomeAdmin/DanhSachSanPham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXERhbmhTYWNoU2FuUGhhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Areas/Admin/Views/HomeAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Areas/Admin/Views/HomeAdmin/SuaKhachHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFN1YUtoYWNoSGFuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Areas/Admin/Views/HomeAdmin/SuaNhanVien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFN1YU5oYW5WaWVuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Areas/Admin/Views/HomeAdmin/SuaSanPham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFN1YVNhblBoYW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Areas/Admin/Views/HomeAdmin/ThemKhachHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFRoZW1LaGFjaEhhbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Areas/Admin/Views/HomeAdmin/ThemNhanVien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFRoZW1OaGFuVmllbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Areas/Admin/Views/HomeAdmin/ThemSanPham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFRoZW1TYW5QaGFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Areas/Cart/Views/CartHome/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2FydFxWaWV3c1xDYXJ0SG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Areas/Cart/Views/CartHome/Payment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2FydFxWaWV3c1xDYXJ0SG9tZVxQYXltZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Areas/Cart/Views/CartHome/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2FydFxWaWV3c1xDYXJ0SG9tZVxTdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Areas/Cart/Views/CartHome/_CartList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2FydFxWaWV3c1xDYXJ0SG9tZVxfQ2FydExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Areas/Cart/Views/HomeCart/PartialSanPham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2FydFxWaWV3c1xIb21lQ2FydFxQYXJ0aWFsU2FuUGhhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Areas/Cart/Views/HomeCart/_LayoutCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2FydFxWaWV3c1xIb21lQ2FydFxfTGF5b3V0Q2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Views/Access/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Views/Access/Themtaikhoan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzXFRoZW10YWlraG9hbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Views/Home/ChiTietSanPham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGlUaWV0U2FuUGhhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Views/Home/SanPhamTheoLoai.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYW5QaGFtVGhlb0xvYWkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Views/Home/ThreeItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUaHJlZUl0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Views/Home/TimKiemSanPham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUaW1LaWVtU2FuUGhhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Views/Shared/Components/LoaiSpMenu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTG9haVNwTWVudVxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Views/Shared/View.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Views/Shared/_LayoutTrangchu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRUcmFuZ2NodS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Views/Shared/_LayoutTung.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRUdW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Views/Shared/_PartialContent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsQ29udGVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Views/Shared/_PartialFooter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsRm9vdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Views/Shared/_PartialHeader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsSGVhZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Views/Shared/_PartialNewArrivals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsTmV3QXJyaXZhbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Views/Shared/_PartialTwoProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsVHdvUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Views/Shared/_SanPhamList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TYW5QaGFtTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2Nam3/LapTrinhWeb/Bài tập lớn/Btaplon/Btaplon/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-mo15vefog0

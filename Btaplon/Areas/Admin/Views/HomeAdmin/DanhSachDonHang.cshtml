@@ -1,0 +1,77 @@
+﻿@model IEnumerable<Btaplon.Models.Order>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "DanhSachDonHang";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Danh Sách Đơn Hàng</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Ngày Tháng
+            </th>
+            <th>
+                Địa Chỉ
+                </th>
+            <th>
+                Sđt
+            </th>
+            <th>
+                Email
+            </th>
+             <th>
+                Tên Khách Hàng
+            </th>
+            <th>
+                ID
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int i = 0;
+            string @cls = "table-success";
+        }
+@foreach (var item in Model) {
+            i = i + 1;
+            cls = "table-success";
+            if (i % 2 == 0)
+            {
+                cls = "table-primary";
+            }
+            <tr class="@cls">
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DiaChi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sdt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+           
+            <td>
+                @Html.DisplayFor(modelItem => item.TenKh)
+            </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-controller="admin" asp-action="XoaDonHang" asp-route-id="@item.Id">Delete</a>
+                </td>
+        </tr>
+}
+    </tbody>
+</table>
